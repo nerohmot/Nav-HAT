@@ -101,23 +101,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=Nav-HAT.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=NMCPEYZJ
-
-[Document5]
 DocumentPath=Schematics.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,33 +117,70 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document5]
+DocumentPath=Nav-HAT.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NMCPEYZJ
+
+[ProjectVariant1]
+UniqueID=C17FDD0F-360A-40EC-BF74-E382D7114C46
+Description=HAT
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=B6A610AA-0126-4A5C-9573-FD0FDFB88CD0
+Description=NMEA2000
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
+
 [Parameter1]
-Name=Date_Designed
-Value=May 2024
+Name=
+Value=
 
 [Parameter2]
-Name=Date_Drawn
-Value=May 2024
+Name=Project_Title
+Value=Nav-HAT
 
 [Parameter3]
-Name=Date_Reviewed
-Value=June 2024
+Name=Engineer_Review
+Value=???
 
 [Parameter4]
-Name=Engineer_Desing
-Value=nerohmot
-
-[Parameter5]
 Name=Engineer_Drawn
 Value=nerohmot
 
+[Parameter5]
+Name=Engineer_Desing
+Value=nerohmot
+
 [Parameter6]
-Name=Engineer_Review
-Value=heli2src
+Name=Date_Reviewed
+Value=June 2024
 
 [Parameter7]
-Name=Project_Title
-Value=Babel Box
+Name=Date_Drawn
+Value=May 2024
+
+[Parameter8]
+Name=Date_Designed
+Value=May 2024
 
 [Configuration1]
 Name=Sources
